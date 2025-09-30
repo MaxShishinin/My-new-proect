@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+.header{
+  background-size: cover;
+  background-position: center;
+  background-image: url(Images/First__photo.PNG);
+  box-sizing: border-box;
+  height: 100vh;
+  max-width: 100%;
+
+}
+
+
+.header__top{
+display: flex;
+justify-content: space-between;
+}
+
+
+.icon{
+  display: block;
+  width: 24px;
+  height: 24px;
+
+}
+
+.icon--registration{
+  background-image: url(Sticks/stick__registration.png);
+
+}
+
+.icon--phone{
+  background-image: url(Sticks/stick__phone.png);
+}
+
+.icon--menu{
+  background-image: url(Sticks/stick__menu.png);
+}
