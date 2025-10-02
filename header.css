@@ -1,0 +1,43 @@
+/* #region header */
+.header{
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/First__foto.png);
+  box-sizing: border-box;
+  height: 100vh;
+  max-width: 100%;
+}
+
+
+.header__top{
+display: flex;
+justify-content: space-between;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 5px;
+ 
+}
+
+
+.header__icons{
+  display: flex;
+  gap: 30px;
+}
+
+
+
+.header__name{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(143, 16, 79);
+  font-size: 25px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+ 
+}
+
+
+
+/* #endregion */

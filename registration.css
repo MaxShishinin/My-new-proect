@@ -1,0 +1,100 @@
+.registration{
+  box-sizing: border-box;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(images/registration-fone.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.registration__top{
+display: flex;
+justify-content: space-between;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 5px;
+
+}
+
+
+.registration__name{
+  font-size: 25px;
+  
+}
+
+.registration__first{
+  text-align: center;
+  padding-top: 50px;
+}
+/* #region input */
+input[type="text"] {
+  background-color: rgb(252, 202, 210);
+  height: 20px;
+  font-size: 15px;
+}
+
+input[type="password"] {
+  border-color: red;
+  background-color: rgb(252, 202, 210);
+  border-radius: 2px;
+  height: 20px;
+  font-size: 15px;
+}
+
+input[type="number"] {
+   background-color: rgb(252, 202, 210);
+ 
+}
+
+input[type="email"] {
+   background-color: rgb(252, 202, 210);
+ 
+}
+input[type="submit"] {
+  background-color: rgb(252, 202, 210);
+}
+
+/* #endregion */
+
+select{
+   background-color: rgb(252, 202, 210);
+}
+
+
+
+.all__strage{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.firstname__strage{
+  background-color: grey;
+  width: 300px;
+  height: 100px;
+  
+}
+
+.firstname__strage:hover{
+  transition-duration: 2s;
+  height: 500px;
+ 
+}
+
+.first__strage{
+  text-align: right;
+}
+
+.second__strage{
+  text-align: right;
+}
+
+.name__strage{
+  height: 25px;
+}
+
+input {
+  margin-top: 10px;
+}

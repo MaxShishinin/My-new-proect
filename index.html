@@ -1,21 +1,226 @@
+<!--#region html-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="First__photo.PNG">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Serif+Text:ital@0;
+1&family=Libertinus+Keyboard&family=Poiret+One&family=Roboto:ital,wdth,wght@0,75..100,500;
+1,75..100,500&display=swap" rel="stylesheet">
   <title>Wave school</title>
 </head>
-<body>
+<!--endregion-->
+<body class="page__body">
   <header class="header">
     <div class="header__top">
       <a href="#" class="header__name"> Wave School</a>
-      <a href="#" class="icon icon--registration"></a>
-      <a href="#" class="icon icon--phone"></a>
-      <a href="#" class="icon icon--menu"></a>
+      <div class="header__icons">
+        <a href="https://t.me/shishininaaa" class="icon icon--phone"></a>
+      <a href="#registration" class="icon icon--registration"></a>
+      <a href="#menu" class="icon icon--menu"></a>
+      </div>
       
     </div>
   </header>
+<!--#region menu-->
+  <aside class="menu page__menu" id="menu">
+      <div class="menu__top">
+      <a href="#" class="header__name"> Wave School</a>
+      <a href="#" class="icon icon--close"></a>
+      </div>
+      <div class="menu__name">
+      <a href="#courses" class="menu__word-small">Курси</a>
+      <a href="#teacher" class="menu__word-long">Викладачі</a>
+      <a href="#about" class="menu__word-small">О нас</a>
+      <a href="#contacts" class="menu__word-long">Контакти</a>
+      </div>
+      </aside>
+<!--#endregion-->
+  <aside class="registration page__registration" id="registration">
+      <div class="registration__top">
+      <a href="#" class="header__name"> Wave School</a>
+      <a href="#" class="icon icon--close"></a>
+      </div>
+      <div class="registration__first">
+     
+
+
+        <div class="registration all__strage">
+          <label class="firstname__strage">
+            <h1 class="title__strage">Для батьків </h1> 
+      <div class="first__strage">
+        <fieldset> 
+          <legend>Особиста інофрмація батьків</legend><br>
+    <label class="row">Прізвище:
+    <input 
+    type="text"
+    name="surname"
+    required
+    autocomplete="off"
+    >
+    </label> <br>
+
+    <label  class="row">Ім`я:
+    <input 
+    type="text"
+    name="name" 
+    required
+    autocomplete="off"
+    >
+    </label><br>
+
+    <label class="row">Скільки років Вашій дитині?
+    <input 
+    type="number"  
+    name="age"
+    min="1"
+    max="100"
+    value="18"
+    >
+    </label><br>
+
+
+    </label> <br>
+    <label class="row">Стать Вашоъ дитини?
+        <select class="name__strage" name="cars">
+          <option value="" disabled selected>Стать</option>
+          <option value="bmw">Дівчина</option>
+          <option value="audi">Хлопчик</option>
+        </select><br>
+
+    <label  class="row">Я приймаю умови угоди
+      <input
+      type="checkbox"
+      name="accepted"
+      value="yes"
+      required
+      >
+    </label>
+    </fieldset>
+    <fieldset class="fieldset">
+    <legend>Реєстрація</legend>
+    <label class="row">E-mail:
+      <input
+      type="email"
+      name="email"
+      placeholder="email@example.com"
+      required
+      ><br>
+    </label>
+      <label class="row"> Password:
+        <input
+        type="password"
+        name="password"
+        minlength="6"
+        maxlength="30"
+        required
+        >
+      </label>
+
+   </fieldset>
+    <label class="row">Бажаєте займатися:
+        <select class="name__strage" name="cars">
+          <option value="" disabled selected>Предмет</option>
+          <option value="bmw">Математика</option>
+          <option value="audi">Українська</option>
+          <option value="audi">Історія України</option>
+        </select><br>
+    
+    <button type="submit">Submit</button>
+      </div>
+      </label>
+
+
+
+
+
+
+      <div class="second__strage">
+        <fieldset>
+      <legend>Особиста інофрмація дитини</legend><br>
+    <label class="row">Прізвище:
+    <input 
+    type="text"
+    name="surname"
+    required
+    autocomplete="off"
+    >
+    </label> <br>
+
+    <label  class="row">Ім`я:
+    <input 
+    type="text"
+    name="name" 
+    required
+    autocomplete="off"
+    >
+    </label><br>
+
+    <label class="row">Скільки років Вашій дитині?
+    <input 
+    type="number"  
+    name="age"
+    min="1"
+    max="100"
+    value="18"
+    >
+    </label><br>
+
+
+    </label> <br>
+    <label class="row">Стать Вашоъ дитини?
+        <select class="name__strage" name="cars">
+          <option value="" disabled selected>Стать</option>
+          <option value="bmw">Дівчина</option>
+          <option value="audi">Хлопчик</option>
+        </select><br>
+
+    <label  class="row">Я приймаю умови угоди
+      <input
+      type="checkbox"
+      name="accepted"
+      value="yes"
+      required
+      >
+    </label>
+    </fieldset>
+    <fieldset class="fieldset">
+    <legend>Реєстрація</legend>
+    <label class="row">E-mail:
+      <input
+      type="email"
+      name="email"
+      placeholder="email@example.com"
+      required
+      ><br>
+    </label>
+      <label class="row"> Password:
+        <input
+        type="password"
+        name="password"
+        minlength="6"
+        maxlength="30"
+        required
+        >
+      </label>
+
+   </fieldset>
+    <label class="row">Бажаєте займатися:
+        <select class="name__strage" name="cars">
+          <option value="" disabled selected>Предмет</option>
+          <option value="bmw">Математика</option>
+          <option value="audi">Українська</option>
+          <option value="audi">Історія України</option>
+        </select><br>
+    
+    <button type="submit">Submit</button>
+      </div>
+        </div>
+ 
+  
 </body>
 </html>

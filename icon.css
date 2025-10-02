@@ -1,0 +1,33 @@
+
+/* #region icon */
+.icon{
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  gap: 20px;
+  color: rgb(143, 16, 79);
+
+}
+
+.icon--registration{
+  background-image: url(Sticks/stick__registration.png);
+
+
+}
+
+.icon--menu{
+  background-image: url(Sticks/stick__menu.png);
+  
+}
+
+.icon--phone{
+  background-image: url(Sticks/stick__phone.png);
+}
+
+.icon--close{
+  background-image: url(sticks/stick__close.png);
+}
+
+/* #endregion */
+
