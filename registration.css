@@ -27,6 +27,74 @@ padding-left: 5px;
   text-align: center;
   padding-top: 50px;
 }
+
+.registration__menu{
+   text-transform: uppercase;
+  font-weight: 750;
+  font-size: 23px;
+  text-align: center;
+ padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  gap: 300px;
+ 
+   font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.registration__word-long{
+  background-image: url(images/Images__father.jpg);
+   color: wheat;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(145, 30, 78);
+ border: 3px, solid, rgb(200, 101, 139);
+ height: 350px;
+ width: 500px;
+ padding-top: 25px;
+ background-color: rgb(248, 199, 218);
+  border-radius: 10px;
+  transition-duration: 1s;
+  transition-property: height, width;
+}
+
+.registration__word-small{
+  background-image: url(images/images__children.avif);
+   color: wheat;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(145, 30, 78);
+ border: 3px, solid, rgb(200, 101, 139);
+ height: 350px;
+ width: 500px;
+ padding-top: 25px;
+ background-color: rgb(248, 199, 218);
+  border-radius: 10px;
+   transition-duration: 1s;
+  transition-property: height, width;
+}
+
+
+.registration__menu .registration__word-long:hover{
+ transition-duration: 1s;
+ border-color: black;
+
+}
+
+.registration__menu .registration__word-small:hover{
+ transition-duration: 1s;
+ border-color: black;
+
+}
+
+
+
+
+
+
 /* #region input */
 input[type="text"] {
   background-color: rgb(252, 202, 210);
@@ -57,44 +125,16 @@ input[type="submit"] {
 
 /* #endregion */
 
-select{
-   background-color: rgb(252, 202, 210);
+#transition{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
 }
 
-
-
-.all__strage{
-  display: flex;
-  justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.firstname__strage{
-  background-color: grey;
-  width: 300px;
-  height: 100px;
-  
-}
-
-.firstname__strage:hover{
-  transition-duration: 2s;
-  height: 500px;
- 
-}
-
-.first__strage{
-  text-align: right;
-}
-
-.second__strage{
-  text-align: right;
-}
-
-.name__strage{
-  height: 25px;
-}
-
-input {
-  margin-top: 10px;
+ #transition:target{
+  opacity: 1;
+  pointer-events: all;
 }
