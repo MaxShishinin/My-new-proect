@@ -90,51 +90,26 @@ padding-left: 5px;
 
 }
 
-
-
-
-
-
-/* #region input */
-input[type="text"] {
-  background-color: rgb(252, 202, 210);
-  height: 20px;
-  font-size: 15px;
-}
-
-input[type="password"] {
-  border-color: red;
-  background-color: rgb(252, 202, 210);
-  border-radius: 2px;
-  height: 20px;
-  font-size: 15px;
-}
-
-input[type="number"] {
-   background-color: rgb(252, 202, 210);
- 
-}
-
-input[type="email"] {
-   background-color: rgb(252, 202, 210);
- 
-}
-input[type="submit"] {
-  background-color: rgb(252, 202, 210);
-}
-
-/* #endregion */
-
-#transition{
+ #father{
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   opacity: 0;
   pointer-events: none;
+ 
 }
 
- #transition:target{
+ #father:target{
   opacity: 1;
-  pointer-events: all;
+  pointer-events: all; 
 }
+
+
+
+
+
+
+
+
+
